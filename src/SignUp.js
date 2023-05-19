@@ -3,8 +3,8 @@ import {useNavigate} from 'react-router-dom'
 
 const SignUp = () => {
   const [name, setName] = useState("");
-  const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const navigate =useNavigate();
 
  
@@ -45,17 +45,18 @@ const SignUp = () => {
       <input
         className="inputBox"
         type="text"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
         placeholder="Enter Email"
       />
       <input
         className="inputBox"
         type="password"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
         placeholder="Enter Password"
       />
+      
       <button onClick={collectData} className="button" type="button">
         SignUp
       </button>

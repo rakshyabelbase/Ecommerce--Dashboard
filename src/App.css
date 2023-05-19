@@ -26,6 +26,13 @@
 .register h1{
   margin-left: 20%;
 }
+.login h1{
+  margin-left: 25%;
+}
+.login{
+  margin-left:30%;
+  margin-top: 100px;
+}
 .button{
   margin-left: 20%;
   padding: 10px;
@@ -38,8 +45,17 @@
     margin: 25px;
     padding: 7px;
     width: 300px;
-    
     border: 1px solid skyblue;
+}
+.nav-right{
+  text-align:right;
+}
+.logo{
+  width:45px;
+  float: left;
+  border-radius:50%;
+  margin-top: 3px;
+  margin-left:20px
 }
 
 @media (prefers-reduced-motion: no-preference) {
