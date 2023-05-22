@@ -20,11 +20,11 @@
     width: 100%;
     background-color: skyblue;
 }
-.register{
+.register, .product{
   margin-left: 40%;
 }
-.register h1{
-  margin-left: 20%;
+.register h1,.product h1{
+  margin-left: 15%;
 }
 .login h1{
   margin-left: 25%;
@@ -57,6 +57,27 @@
   margin-top: 3px;
   margin-left:20px
 }
+.invalid-input{
+  color: red;
+  margin-top:-20px;
+  display:block;
+  margin-left:20px;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width:150px;
+}
+.product-list ul{
+  margin: 0
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -73,6 +94,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.search-product{
+  width: 400px;
+  margin: 20px;
+  height:40px;
+  border: 1px solid skyblue;
+  padding-left: 20px;
+
 }
 
 .App-link {
